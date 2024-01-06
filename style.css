@@ -1,0 +1,100 @@
+@charset "utf-8";
+.header{
+	height: 50px;
+	background-color: blue;
+	position: relative;
+
+}
+
+.header-text{
+	text-align: center;
+	padding-top:  11px;
+	font-size: 20px;
+}
+.logo{
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-color: darkblue;
+	border-radius: 50%;
+	top: 5px;
+	left: 1286px;
+	text-align: center;
+}
+.logo-text{
+	text-align: center;
+	position: absolute;
+	top: -6px;
+	left: 5px;
+}
+.left-heading{
+	display: inline-block;
+	flex: 1;
+	width: 400px;
+	height: 500px;
+	background-color: aquamarine;
+	
+		
+}
+.left-heading a:hover{
+	background-color: black;
+}
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: yellow;
+}
+.mid-heading{
+	width: 500px;
+	height: 500px;
+	background-color: khaki;
+	
+}
+.parent{
+	display: flex;
+}
+.right-heading{
+	width: 400px;
+	height: 500px;
+	background-color: gray;
+	text-align: center;
+}
+.pic{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 1091px;
+	top: 277px;
+	border-radius: 50%;
+}
+.pic-text{
+	padding-top: 25px;
+}
+.pic a:hover{
+	 background-color: aqua;
+}
+.footer{
+	display: block;
+	width: 1350px;
+	height: 50px;
+	background-color: blue;
+	position: absolute;
+	top: 570px;
+	text-align: center;
+}
+.footer-text{
+	font-size: 20px;
+    margin-top: 13px;
+}
